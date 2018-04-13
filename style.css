@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Sukhumvit;
+    src: url(fonts/SukhumvitSet-Light.ttf)
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #282e34;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a3a3a3; 
+}
+
+.nav {
+    font-family: Sukhumvit;
+    overflow: hidden;
+    background-color: rgba(40, 46, 52, 1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+li{
+    display: inline;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left:5px;
+    margin-top: 1px;
+}
+
+#box1{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img1_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box2{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img4_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box3{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img5_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box4{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img6_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box5{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img7_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box6{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img8_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box7{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img9_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+#box8{
+    height: 105vh;
+    width: 100%;
+    background-image: url(img/img10_e.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.con{
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+.over{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.67s ease;
+    background-color: rgba(0, 0, 0, 0.67);
+    background-image: url(img/bg2.png);
+}
+
+#fx{
+    font-size: 100px;
+    text-shadow: 3px 3px #303030;
+    display: block;
+    animation: sc 8s infinite;
+}
+
+@keyframes sc{
+    0%   {transform: scale(0.9, 0.9);}
+    50%  {transform: scale(1, 1);}
+    100% {transform: scale(0.9, 0.9);}
+}
+
+.head{
+    position: relative;
+    top: 45%;
+    text-shadow: 2px 3px #505050;
+    font-family: Sukhumvit;
+    font-weight: bold;
+    font-size: 80px;
+    color:white;
+    margin: 0px;
+    transition: 0.33s ease;
+}
+
+.txt{
+    position: relative;
+    font-family: Sukhumvit;
+    top: 40%;
+    text-shadow: 2px 3px #505050;
+    font-size: 40px;
+    color:white;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+a{
+    position: relative;
+    font-family: Sukhumvit;
+    font-size: 40px;
+    color:white;
+    margin: 0px;
+    text-decoration: none;
+}
+.txt:hover{
+    font-size: 42px;
+    text-decoration: underline;
+}
+.con:hover .over{
+    transition-delay: 1s;
+    opacity: 1;
+}
+.con:hover .head{
+    transition-delay: 1s;
+    opacity: 0;
+}
+
