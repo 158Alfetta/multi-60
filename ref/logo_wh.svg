@@ -14,11 +14,11 @@
 	</g>
 </g>
 <g>
-	<path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" d="M377.083,487.086l200.533-200.533l346.343,346.343
+	<path fill="none" stroke="#FFFFFF" stroke-width="34" stroke-miterlimit="10" d="M377.083,487.086l200.533-200.533l346.343,346.343
 		c11.39-39.203,17.519-80.645,17.519-123.522c0-244.08-197.866-441.946-441.946-441.946S57.586,265.293,57.586,509.374
 		c0,6.093,0.158,12.149,0.402,18.182l179.782-179.782L377.083,487.086z"/>
-	<path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" d="M377.083,487.086L123.129,741.039
+	<path fill="none" stroke="#FFFFFF" stroke-width="34" stroke-miterlimit="10" d="M377.083,487.086L123.129,741.039
 		C200.95,867.21,340.41,951.32,499.533,951.32c201.202,0,370.978-134.464,424.427-318.424L577.616,286.553L377.083,487.086z"/>
-	<circle fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" cx="580.866" cy="463.528" r="63.841"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="34" stroke-miterlimit="10" cx="580.866" cy="463.528" r="63.841"/>
 </g>
 </svg>
