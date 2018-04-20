@@ -215,7 +215,6 @@ a{
     opacity: 1;
 }
 .con:hover .head{
-    transition-delay: 1s;
-    opacity: 0;
+    transform: translate(-20%);
 }
 
