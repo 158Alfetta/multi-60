@@ -13,12 +13,7 @@ else{
 }
 });
 
-// window.onclick = function() {
-//   $('.modal').css('display', 'none');
-// };
-
-var modal = document.getElementById('myModal');
-var span = document.getElementsByClassName("close")[0];
 function closeModal() {
-  $('.modal').css('display', 'none');
+  $('.modal').fadeOut(200, "linear");
+  // $('.modal').css('display', 'none');
 }
