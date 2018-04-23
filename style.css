@@ -21,6 +21,52 @@ body{
     background: #a3a3a3; 
 }
 
+.modal {
+
+}
+
+.modal-fade {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.modal-wrapper {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-content {
+    width: 35vw;
+    height: 50vh;
+    background-color: #f2f2f2;
+    padding: 15px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.modal-head {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-head:hover,
+.modal-head:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 .nav {
     font-family: Sukhumvit;
     overflow: hidden;

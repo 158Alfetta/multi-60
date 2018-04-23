@@ -6,8 +6,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<div class="modal">
+	<div class="modal-fade" onclick="closeModal()"></div>
+	<div class="modal-wrapper">
+		<div class="modal-content">
+			<div class="modal-head" onclick="closeModal()">&times;</div>
+			<div class="modal-body">Hello</div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+
+</div>
 <div class=nav>
   <li><img src="ref/logo_wh.svg" id="logo"></li>
   <li><a href="index.html" class="cur">Home</a></li>
