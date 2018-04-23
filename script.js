@@ -1,5 +1,9 @@
 var $win = $(window);
 
+$( document ).ready(function() {
+     $('.modal').fadeIn(600, "linear");
+});
+
 $win.on('scroll', function () {
 // This event will be fired every time the browser scrolls
 var topPixels = $win.scrollTop();
