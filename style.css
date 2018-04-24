@@ -278,7 +278,6 @@ a{
 }
 .con:hover .over{
     transition-delay: 0.67s;
-
     opacity: 1;
 }
 .con:hover .head{

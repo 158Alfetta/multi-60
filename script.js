@@ -22,3 +22,8 @@ function closeModal() {
   $('.modal').fadeOut(200, "linear");
   // $('.modal').css('display', 'none');
 }
+
+// $('.con').hover(function(){
+//   console.log("hover");
+//   $('.text').append("อ่านเพิ่มเติม");
+// });
