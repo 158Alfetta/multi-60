@@ -18,6 +18,7 @@ else{
 });
 
 function closeModal() {
+	$('#vdo')[0].pause();
   $('.modal').fadeOut(200, "linear");
   // $('.modal').css('display', 'none');
 }
