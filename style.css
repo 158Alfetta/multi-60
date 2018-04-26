@@ -21,16 +21,24 @@ body{
     background: #a3a3a3; 
 }
 .head_cont{
-    position: top;
+    position: relative;
     top: 45%;
     text-shadow: 2px 3px #505050;
     font-family: Sukhumvit;
     font-weight: bold;
-    font-size: 8vw;
-    color:white;
+    font-size: 5vw;
+    color: #303030;
     margin: 0px;
+    top: 45px;
 }
-
+.txt_cont{
+    position: relative;
+    text-shadow: 2px 3px #505050;
+    font-family: Sukhumvit;
+    font-weight: bold;
+    font-size: 2vw;
+    color: #303030;
+}
 .modal {
    display: none;
    position: fixed;
@@ -221,7 +229,7 @@ li{
 #cont_test{
     height: 105vh;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .con{
