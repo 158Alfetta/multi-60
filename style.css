@@ -20,6 +20,16 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #a3a3a3; 
 }
+.head_cont{
+    position: top;
+    top: 45%;
+    text-shadow: 2px 3px #505050;
+    font-family: Sukhumvit;
+    font-weight: bold;
+    font-size: 8vw;
+    color:white;
+    margin: 0px;
+}
 
 .modal {
    display: none;
@@ -205,6 +215,12 @@ li{
     background-attachment: fixed;
     background-repeat:no-repeat;
     background-position: center center;
+    text-align: center;
+}
+
+#cont_test{
+    height: 105vh;
+    width: 100%;
     text-align: center;
 }
 
