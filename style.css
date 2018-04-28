@@ -151,7 +151,8 @@ li{
     width: 225px;
     height: 225px;
     margin: auto auto;
-    margin-top: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
 }
 #box1{
