@@ -40,11 +40,11 @@ body{
     color: #303030;
 }
 .modal {
-   display: none;
-   position: fixed;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
+ display: none;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
 }
 
 .modal-fade {
@@ -312,16 +312,31 @@ a{
     opacity: 0;
 }
 
+.ban{
+    background-image: url(img/img11_e2.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .his-con{
     display: block;
     background-color: white;
-    width: 60vw;
-    height: 100vh;
+    width: 80vw;
+    height: auto;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
-    margin-top: 10%;
-    margin-left: 20%;
+    margin-top: 30%;
+    margin-left: 10vw;
+    position: absolute;
 }
 .his-con h1{
     text-align: center;
     font-family: Sukhumvit;
+}
+.his-con p{
+    text-align: center;
+    font-family: Sukhumvit;
+    font-size: 1.5em;
 }
