@@ -147,6 +147,13 @@ li{
     margin-bottom: 0px
 }
 
+#paragraph_pic{
+    width: 225px;
+    height: 225px;
+    margin: auto auto;
+    margin-top: 15px;
+    display: block;
+}
 #box1{
     height: 105vh;
     width: 100%;
@@ -314,7 +321,7 @@ a{
 
 .ban{
     background-image: url(img/img11_e2.jpg);
-    height: 80vh;
+    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +334,7 @@ a{
     width: 80vw;
     height: auto;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.5);
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 10vw;
     position: absolute;
 }
