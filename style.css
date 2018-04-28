@@ -148,8 +148,8 @@ li{
 }
 
 #paragraph_pic{
-    width: 225px;
-    height: 225px;
+    width: 16vw;
+    height: auto;
     margin: auto auto;
     margin-top: 5%;
     margin-bottom: 5%;
