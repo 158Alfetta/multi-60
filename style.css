@@ -8,11 +8,11 @@ body{
 }
 @font-face {
     font-family: Thonburi;
-    src: url(fonts/Thonburi.otf)
+    src: url(fonts/Thonburi.otf);
 }
 @font-face {
     font-family: Nithan;
-    src: url(fonts/Nithan.otf)
+    src: url(fonts/Nithan.otf);
 }
 
 ::-webkit-scrollbar {
@@ -48,11 +48,11 @@ body{
     color: #303030;
 }
 .modal {
- display: none;
- position: fixed;
- width: 100%;
- height: 100%;
- z-index: 1;
+   display: none;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 1;
 }
 
 .modal-fade {
@@ -349,10 +349,25 @@ a{
 }
 .his-con h1{
     text-align: center;
-    font-family: Nithan;
+    /*font-family: Nithan;*/
+    /*font-family: Sukhumvit;*/
+    font-family: 'Pridi', serif;
 }
 .his-con p{
     padding: 3%;
-    font-family: Nithan;
+    /*font-family: Nithan;*/
+    font-family: 'Pridi', serif;
     font-size: 1.5em;
+}
+.map-res{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-res iframe{
+    left:10%;
+    height:80%;
+    width:80%;
+    position:absolute;
 }
