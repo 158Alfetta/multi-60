@@ -155,24 +155,6 @@ li{
     margin-bottom: 0px
 }
 
-#paragraph_pic{
-    width: 16vw;
-    height: auto;
-    margin: auto auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    display: block;
-}
-
-#paragraph_pic2{
-    width: 800px;
-    height: auto;
-    margin: auto auto;
-    margin-top: -1%;
-    margin-bottom: -1%;
-    display: block;
-}
-
 #box1{
     height: 105vh;
     width: 100%;
@@ -353,7 +335,8 @@ a{
     width: 90vw;
     height: auto;
     box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.67);
-    margin-top: 15%;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
     margin-left: 5vw;
     position: absolute;
 }
@@ -369,6 +352,23 @@ a{
     font-family: 'Pridi', serif;
     font-size: 1.5em;
 }
+
+#paragraph_pic{
+    width: 15%;
+    height: auto;
+    margin: auto auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: block;
+}
+
+.paragraph_pic2{
+    width: 50%;
+    height: auto;
+    margin: auto auto;
+    display: block;
+}
+
 .map-res{
     overflow:hidden;
     padding-bottom:50%;
