@@ -6,6 +6,14 @@ body{
     font-family: Sukhumvit;
     src: url(fonts/SukhumvitSet-Light.ttf)
 }
+@font-face {
+    font-family: Thonburi;
+    src: url(fonts/Thonburi.otf)
+}
+@font-face {
+    font-family: Nithan;
+    src: url(fonts/Nithan.otf)
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -341,10 +349,10 @@ a{
 }
 .his-con h1{
     text-align: center;
-    font-family: Sukhumvit;
+    font-family: Nithan;
 }
 .his-con p{
     padding: 3%;
-    font-family: Sukhumvit;
+    font-family: Nithan;
     font-size: 1.5em;
 }
