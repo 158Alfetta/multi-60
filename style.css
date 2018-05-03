@@ -28,25 +28,6 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #a3a3a3; 
 }
-.head_cont{
-    position: relative;
-    top: 45%;
-    text-shadow: 2px 3px #505050;
-    font-family: Sukhumvit;
-    font-weight: bold;
-    font-size: 5vw;
-    color: #303030;
-    margin: 0px;
-    top: 45px;
-}
-.txt_cont{
-    position: relative;
-    text-shadow: 2px 3px #505050;
-    font-family: Sukhumvit;
-    font-weight: bold;
-    font-size: 2vw;
-    color: #303030;
-}
 .modal {
    display: none;
    position: fixed;
@@ -105,7 +86,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 li{
     display: inline;
@@ -235,9 +216,26 @@ li{
 }
 
 #cont_test{
-    height: 105vh;
-    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    width: 100vw;
     text-align: left;
+}
+.head_cont{
+    position: relative;
+    text-shadow: 2px 3px rgba(80, 80, 80, 0.67);
+    font-family: Sukhumvit;
+    font-weight: bold;
+    font-size: 5vw;
+    color: #303030;
+    margin: 0px;
+}
+.txt_cont{
+    position: relative;
+    font-family: Sukhumvit;
+    font-weight: bold;
+    font-size: 2em;
+    color: #303030;
 }
 
 .con{

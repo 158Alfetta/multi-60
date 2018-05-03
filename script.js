@@ -24,4 +24,3 @@ function closeModal() {
 	$('.modal').fadeOut(200, "linear");
   // $('.modal').css('display', 'none');
 }
-
