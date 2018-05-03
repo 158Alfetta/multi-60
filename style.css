@@ -384,6 +384,12 @@ a{
     font-size: 1.5em;
 }
 
+.opening_text{
+    text-align: center;
+    font-family: 'Pridi', serif;
+    font-size: 2em;
+}
+
 .travel-con{
     display: block;
     background-color: white;
@@ -397,18 +403,27 @@ a{
     border-radius: 5px;
 }
 
-.travel-con img{
+.travel-con-pleft{
     float: right;
     width: 50%;
     height: auto;
     margin: auto auto;
-    display: block;
+    display: inline-block;
+    position: relative;
 }
 
 .travel-con p{
+    text-align: left;
     padding: 3%;
     font-family: 'Pridi', serif;
     font-size: 1.5em;
+}
+
+.travel-con h1{
+    padding-left:1.5em;
+    text-align: left;
+    font-family: 'Pridi', serif;
+    font-size: 3em;
 }
 
 #paragraph_pic{
