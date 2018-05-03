@@ -1,6 +1,7 @@
 var $win = $(window);
 
 $( document ).ready(function() {
+	$('#vdo')[0].play();
 	$('.modal').fadeIn(600, "linear");
 
 });
