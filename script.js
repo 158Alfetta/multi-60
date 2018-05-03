@@ -19,8 +19,12 @@ else{
 }
 });
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 function closeModal() {
 	$('#vdo')[0].pause();
 	$('.modal').fadeOut(200, "linear");
-  // $('.modal').css('display', 'none');
+// $('.modal').css('display', 'none');
 }
