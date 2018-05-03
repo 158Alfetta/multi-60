@@ -407,7 +407,7 @@ a{
     float: left;
     width: 50%;
     height: auto;
-    /*margin: auto auto;*/
+    margin-top: 3%;
     margin-left: 3%;
     display: inline-block;
 }
@@ -416,6 +416,7 @@ a{
     float: right;
     width: 50%;
     height: auto;
+    margin-top: 3%;
     margin-right: 3%;
     display: inline-block;
 }
