@@ -404,13 +404,21 @@ a{
 }
 
 .travel-con-pleft{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: auto auto;
+    display: inline-block;
+}
+
+.travel-con-pright{
     float: right;
     width: 50%;
     height: auto;
     margin: auto auto;
     display: inline-block;
-    position: relative;
 }
+
 
 .travel-con p{
     text-align: left;
@@ -424,6 +432,13 @@ a{
     text-align: left;
     font-family: 'Pridi', serif;
     font-size: 3em;
+}
+
+.travel-con h2{
+    padding-left:1.5em;
+    text-align: left;
+    font-family: 'Pridi', serif;
+    font-size: 2em;
 }
 
 #paragraph_pic{
