@@ -215,26 +215,40 @@ li{
     text-align: center;
 }
 
-#cont_test{
-    margin-top: 5%;
-    height: auto;
+.ab_c{
+    background-image: url(img/img12_e_b.jpg);
     width: 100vw;
-    text-align: left;
+    height: 100vh;
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+#cont_test{
+    background-color: rgba(255,255,255,0.67);
+    height: 80vh;
+    width: 80vw;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    position: absolute;
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 .head_cont{
-    position: relative;
-    text-shadow: 2px 3px rgba(80, 80, 80, 0.67);
+    position: absolute;
     font-family: Sukhumvit;
     font-weight: bold;
-    font-size: 5vw;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 2em;
     color: #303030;
-    margin: 0px;
 }
 .txt_cont{
-    position: relative;
+    position: absolute;
     font-family: Sukhumvit;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.67em;
+    margin-top: 8%;
+    margin-left: 3%;
     color: #303030;
 }
 
