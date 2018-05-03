@@ -407,7 +407,8 @@ a{
     float: left;
     width: 50%;
     height: auto;
-    margin: auto auto;
+    /*margin: auto auto;*/
+    margin-left: 3%;
     display: inline-block;
 }
 
@@ -415,17 +416,38 @@ a{
     float: right;
     width: 50%;
     height: auto;
-    margin: auto auto;
+    margin-right: 3%;
     display: inline-block;
 }
 
-
-.travel-con p{
-    text-align: left;
-    padding: 3%;
+.lf{
+    width: 40%;
+    margin-top: 0;
+    margin-left: 55%;
+    padding: 1%;
+    padding-top: 0%;
     font-family: 'Pridi', serif;
     font-size: 1.5em;
+    position: relative;
 }
+.rg{
+    width: 40%;
+    margin-top: 0;
+    padding: 0;
+    padding-left: 3%;
+    font-family: 'Pridi', serif;
+    font-size: 1.5em;
+    position: relative;
+}
+/*.travel-con p{
+    width: 40%;
+    margin-top: 0;
+    margin-left: 55%;
+    padding: 1%;
+    font-family: 'Pridi', serif;
+    font-size: 1.5em;
+    position: relative;
+}*/
 
 .travel-con h1{
     padding-left:1.5em;
@@ -434,11 +456,32 @@ a{
     font-size: 3em;
 }
 
-.travel-con h2{
-    padding-left:1.5em;
+/*.travel-con h2{
+    margin-left: 3%;
+    margin:0;
+    border: 0;
+    padding: 0;
     text-align: left;
     font-family: 'Pridi', serif;
     font-size: 2em;
+}*/
+.hlf{
+    margin:0;
+    margin-left: 55.5%;
+    border: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Pridi', serif;
+    font-size: 2em; 
+}
+.hrg{
+    margin:0;
+    margin-left: 3%;
+    border: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Pridi', serif;
+    font-size: 2em; 
 }
 
 #paragraph_pic{
