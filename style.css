@@ -377,6 +377,12 @@ a{
     /*font-family: Sukhumvit;*/
     font-family: 'Pridi', serif;
 }
+.his-con h2{
+    text-align: left;
+    font-family: 'Pridi', serif;
+    margin:0;
+    margin-left: 3%;
+}
 .his-con p{
     padding: 3%;
     /*font-family: Nithan;*/
@@ -535,6 +541,36 @@ a{
     font-weight: bold;
     text-shadow: 3px 3px rgba(30, 30, 30, 0.67);
 }
+
+#eat_head h1{
+    margin-left: 1%;
+    text-align: left;
+}
+#eat_head h2{
+    margin-left: 1%;
+    text-align: left;
+}
+.eat_bx{
+    position: relative;
+    height: 100%
+}
+.eat_bx p{
+    margin:0;
+    padding: 0;
+    width: 50%;
+}
+#lef{
+    margin-left: 50%;
+}
+
+.ea_pc{
+    width: 3%;
+    height: auto;
+}
+#ea_f{
+    height: 10vh;
+}
+
 #travel{
     position: absolute;
     display: inline;
