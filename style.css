@@ -351,6 +351,7 @@ a{
     margin-bottom: 5vh;
     margin-left: 5vw;
     position: absolute;
+    border-radius: 5px;
 }
 .his-con h1{
     text-align: center;
@@ -392,4 +393,66 @@ a{
     height:80%;
     width:80%;
     position:absolute;
+}
+
+
+#eat{
+    position: absolute;
+    display: inline;
+    width: 33.33vw;
+    height: 100vh;
+    background-image: url(img/img3.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#eat p{
+    color: white;
+    margin-top: 45vh;
+    font-family: Sukhumvit;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px rgba(30, 30, 30, 0.67);
+}
+#travel{
+    position: absolute;
+    display: inline;
+    width: 33.33vw;
+    height: 100vh;
+    margin-left: 33.33%;
+    background-image: url(img/img13_e.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#travel p{
+    color: white;
+    margin-top: 45vh;
+    font-family: Sukhumvit;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px rgba(30, 30, 30, 0.67);
+}
+#life{
+    position: absolute;
+    display: inline;
+    width: 33.33vw;
+    height: 100vh;
+    margin-left: 66.67%;
+    background-image: url(img/img1_e.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#life p{
+    color: white;
+    margin-top: 45vh;
+    font-family: Sukhumvit;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px rgba(30, 30, 30, 0.67);
 }
